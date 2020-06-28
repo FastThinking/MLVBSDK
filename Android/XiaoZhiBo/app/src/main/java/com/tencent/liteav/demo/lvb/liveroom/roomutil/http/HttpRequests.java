@@ -1,6 +1,6 @@
 package com.tencent.liteav.demo.lvb.liveroom.roomutil.http;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.Log;
 
 import com.google.gson.Gson;

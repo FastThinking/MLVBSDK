@@ -80,7 +80,7 @@
     </FrameLayout>
 
 
-    <android.support.v4.widget.SwipeRefreshLayout
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swipe_refresh_layout_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -100,7 +100,7 @@
             android:background="#efefef"
             android:divider="@color/colorActivityBackground"
             android:dividerHeight="5dp" />
-    </android.support.v4.widget.SwipeRefreshLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
 
     <TextView

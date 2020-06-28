@@ -5,8 +5,9 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentTabHost;
+
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentTabHost;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;

@@ -5,9 +5,9 @@ import android.app.FragmentTransaction;
 import android.app.Service;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Environment;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
 import android.util.Log;

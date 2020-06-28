@@ -161,7 +161,7 @@
             android:layout_width="110dp"
             android:layout_height="35dp"/>
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/anchor_rv_avatar"
             android:layout_marginRight="15dp"
             android:layout_marginTop="5dp"

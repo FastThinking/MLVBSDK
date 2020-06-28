@@ -1,7 +1,7 @@
 package com.tencent.qcloud.xiaozhibo;
 
 import android.content.Context;
-import android.support.multidex.MultiDexApplication;
+import androidx.multidex.MultiDexApplication;
 
 import com.tencent.bugly.crashreport.CrashReport;
 import com.tencent.liteav.demo.lvb.liveroom.MLVBLiveRoomImpl;
