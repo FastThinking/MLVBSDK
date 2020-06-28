@@ -24,10 +24,9 @@ public class TCGlobalConfig {
     //todo:license
 //    public static final String LICENCE_URL = #设置成您自己账号下直播License的url;
 //    public static final String LICENCE_KEY = #设置成您自己账号下直播License的key;
-
-    public static final String LICENCE_URL = "http://license.vod2.myqcloud.com/license/v1/b0bd0f2084d456f0932db0a98be905d4/TXLiveSDK.licence";
-    public static final String LICENCE_KEY = "fedf3107141a791fac5e03af31c9b350";
-
+    //我的微信
+//    public static final String LICENCE_URL = "http://license.vod2.myqcloud.com/license/v1/b0bd0f2084d456f0932db0a98be905d4/TXLiveSDK.licence";
+//    public static final String LICENCE_KEY = "fedf3107141a791fac5e03af31c9b350";
 
     /**
      * 2.1 腾讯云 SDKAppId，需要替换为您自己账号下的 SDKAppId。
@@ -36,8 +35,7 @@ public class TCGlobalConfig {
      * 它是腾讯云用于区分客户的唯一标识。
      */
 //    public static final int SDKAPPID = #设置成您自己账号下的SDKAppId;
-    public static final int SDKAPPID = 1400376161;
-
+//    public static final int SDKAPPID = 1400376161;
 
     /**
      * 2.2 计算签名用的加密密钥，获取步骤如下：
@@ -52,6 +50,14 @@ public class TCGlobalConfig {
      */
 //    public static final String SECRETKEY = #设置成您自己账号的加密密钥;
     public static final String SECRETKEY = "5fb018b0905da8213616c9d1c7ea8d6f5d7f3dd99fc6ee00d1a4d8e36ccad3d8";
+
+
+    //希莱雅
+    public static final String LICENCE_URL = "http://license.vod2.myqcloud.com/license/v1/2c93fb4e7e99bff13abb6d142c5e87de/TXLiveSDK.licence";
+    public static final String LICENCE_KEY = "32da1f07d62ff1c86995ec2051eaf9a9";
+    public static final int SDKAPPID = 1400392123;
+
+
     /**
      * 2.3 签名过期时间，建议不要设置的过短
      * <p>
