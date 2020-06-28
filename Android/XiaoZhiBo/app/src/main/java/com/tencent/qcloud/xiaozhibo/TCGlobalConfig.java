@@ -24,9 +24,10 @@ public class TCGlobalConfig {
     //todo:license
 //    public static final String LICENCE_URL = #设置成您自己账号下直播License的url;
 //    public static final String LICENCE_KEY = #设置成您自己账号下直播License的key;
-    //我的微信
-//    public static final String LICENCE_URL = "http://license.vod2.myqcloud.com/license/v1/b0bd0f2084d456f0932db0a98be905d4/TXLiveSDK.licence";
-//    public static final String LICENCE_KEY = "fedf3107141a791fac5e03af31c9b350";
+
+    public static final String LICENCE_URL = "http://license.vod2.myqcloud.com/license/v1/b0bd0f2084d456f0932db0a98be905d4/TXLiveSDK.licence";
+    public static final String LICENCE_KEY = "fedf3107141a791fac5e03af31c9b350";
+
 
     /**
      * 2.1 腾讯云 SDKAppId，需要替换为您自己账号下的 SDKAppId。
@@ -35,7 +36,8 @@ public class TCGlobalConfig {
      * 它是腾讯云用于区分客户的唯一标识。
      */
 //    public static final int SDKAPPID = #设置成您自己账号下的SDKAppId;
-//    public static final int SDKAPPID = 1400376161;
+    public static final int SDKAPPID = 1400376161;
+
 
     /**
      * 2.2 计算签名用的加密密钥，获取步骤如下：
@@ -45,19 +47,12 @@ public class TCGlobalConfig {
      * step3. 点击“查看密钥”按钮，就可以看到计算 UserSig 使用的加密的密钥了，请将其拷贝并复制到如下的变量中。
      * 如果提示"请先添加管理员才能生成公私钥"，点击"编辑"，输入管理员名称，如"admin"，点"确定"添加管理员。然后再查看密钥。
      * <p>
+     *
      * 注意：该方案仅适用于调试Demo，正式上线前请将 UserSig 计算代码和密钥迁移到您的后台服务器上，以避免加密密钥泄露导致的流量盗用。
      * 文档：https://cloud.tencent.com/document/product/647/17275#Server
      */
 //    public static final String SECRETKEY = #设置成您自己账号的加密密钥;
     public static final String SECRETKEY = "5fb018b0905da8213616c9d1c7ea8d6f5d7f3dd99fc6ee00d1a4d8e36ccad3d8";
-
-
-    //希莱雅
-    public static final String LICENCE_URL = "http://license.vod2.myqcloud.com/license/v1/2c93fb4e7e99bff13abb6d142c5e87de/TXLiveSDK.licence";
-    public static final String LICENCE_KEY = "32da1f07d62ff1c86995ec2051eaf9a9";
-    public static final int SDKAPPID = 1400392123;
-
-
     /**
      * 2.3 签名过期时间，建议不要设置的过短
      * <p>
