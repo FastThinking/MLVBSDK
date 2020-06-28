@@ -31,7 +31,7 @@ import com.tencent.qcloud.xiaozhibo.login.TCUserMgr;
  * 注：Android 在 API 21+ 的版本才支持屏幕录制功能
  */
 @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-public class TCScreenAnchorActivity extends TCBaseAnchorActivity {
+public class  TCScreenAnchorActivity extends TCBaseAnchorActivity {
     private static final String TAG = TCScreenAnchorActivity.class.getSimpleName();
     public static int OVERLAY_PERMISSION_REQ_CODE = 1234;
 
