@@ -21,8 +21,8 @@ public class DemoApplication extends MultiDexApplication {
     private static DemoApplication instance;
 
     // 如何获取License? 请参考官网指引 https://cloud.tencent.com/document/product/454/34750
-    String licenceUrl = "请替换成您的licenseUrl";
-    String licenseKey = "请替换成您的licenseKey";
+    String licenceUrl = "http://license.vod2.myqcloud.com/license/v1/b0bd0f2084d456f0932db0a98be905d4/TXLiveSDK.licence";
+    String licenseKey = "fedf3107141a791fac5e03af31c9b350";
 
     @Override
     public void onCreate() {
