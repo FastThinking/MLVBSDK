@@ -2,6 +2,7 @@ package com.tencent.liteav.demo;
 
 import android.os.Build;
 import android.os.StrictMode;
+
 import androidx.multidex.MultiDexApplication;
 
 import com.tencent.bugly.crashreport.CrashReport;
@@ -21,8 +22,8 @@ public class DemoApplication extends MultiDexApplication {
     private static DemoApplication instance;
 
     // 如何获取License? 请参考官网指引 https://cloud.tencent.com/document/product/454/34750
-    String licenceUrl = "http://license.vod2.myqcloud.com/license/v1/b0bd0f2084d456f0932db0a98be905d4/TXLiveSDK.licence";
-    String licenseKey = "fedf3107141a791fac5e03af31c9b350";
+    String licenceUrl = "http://license.vod2.myqcloud.com/license/v1/2c93fb4e7e99bff13abb6d142c5e87de/TXLiveSDK.licence";
+    String licenseKey = "32da1f07d62ff1c86995ec2051eaf9a9";
 
     @Override
     public void onCreate() {
@@ -58,18 +59,18 @@ public class DemoApplication extends MultiDexApplication {
 
     private void closeAndroidPDialog() {
         try {
-            Class       aClass              = Class.forName("android.content.pm.PackageParser$Package");
+            Class aClass = Class.forName("android.content.pm.PackageParser$Package");
             Constructor declaredConstructor = aClass.getDeclaredConstructor(String.class);
             declaredConstructor.setAccessible(true);
         } catch (Exception e) {
             e.printStackTrace();
         }
         try {
-            Class  cls            = Class.forName("android.app.ActivityThread");
+            Class cls = Class.forName("android.app.ActivityThread");
             Method declaredMethod = cls.getDeclaredMethod("currentActivityThread");
             declaredMethod.setAccessible(true);
-            Object activityThread         = declaredMethod.invoke(null);
-            Field  mHiddenApiWarningShown = cls.getDeclaredField("mHiddenApiWarningShown");
+            Object activityThread = declaredMethod.invoke(null);
+            Field mHiddenApiWarningShown = cls.getDeclaredField("mHiddenApiWarningShown");
             mHiddenApiWarningShown.setAccessible(true);
             mHiddenApiWarningShown.setBoolean(activityThread, true);
         } catch (Exception e) {
