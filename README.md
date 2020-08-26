@@ -11,10 +11,9 @@
 | Android | [下载](http://liteavsdk-1252463788.cosgz.myqcloud.com/TXLiteAVSDK_Smart_Android_latest.zip)| [DOC](https://github.com/tencentyun/MLVBSDK/blob/master/Android/README.md)| [DOC](https://cloud.tencent.com/document/product/454/7877) | [API](https://cloud.tencent.com/document/product/454/34766) |
 | 小程序 | [下载](http://liteavsdk-1252463788.cosgz.myqcloud.com/MLVB_WXMini_latest.zip)| [DOC](https://github.com/tencentyun/MLVBSDK/blob/master/WXMini/README.md)| [DOC](https://cloud.tencent.com/document/product/454/34925) | [API](https://cloud.tencent.com/document/product/454/15368) |
 
-### Version 7.2 @ 2020.04.17
-- iOS&Android：新增 TXLivePlayer 支持回调 HTTP Response 头字段，可用于 CDN 定制的 HTTP 响应头字段解析。
-- iOS&Android：新增 TXLivePusher 支持本地音量回调。
-- iOS&Android：优化滤镜、绿幕等视效接口，归并到 TXBeautyManager 类下，实现统一的调用方式。
+### Version 7.6 @ 2020.08.21
+- iOS&Android：AI美颜优化，修复唇彩遮挡问题，提高人脸检测追踪精确度，优化侧脸妆容效果；
+- iOS&Android：SDK事件及错误回调信息国际化；
 
 ## MLVB Demo
 
